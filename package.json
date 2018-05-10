@@ -1,0 +1,16 @@
+{
+  "name": "Games",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon SimpleServer.js LearnCraft/",
+    "test": "nodemon SimpleServer.js TestRest/"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {
+    "@orange-games/phaser-input": "^2.0.5"
+  }
+}
